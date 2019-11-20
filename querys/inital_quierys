@@ -1,0 +1,2 @@
+create database userDb;
+ALTER TABLE user  CHANGE `entry` `entry` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP;
